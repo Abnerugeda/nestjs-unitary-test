@@ -1,0 +1,16 @@
+{
+    "$schema": "https://swc.rs/schema.json",
+    "jsc": {
+      "parser": {
+        "syntax": "typescript",
+        "jsx": false,
+        "decorators": true
+      },
+      "transform": {
+        "legacyDecorator": true,
+        "decoratorMetadata": true
+      },
+      "target": "es5",
+      "keepClassNames": true
+    }
+}
